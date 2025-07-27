@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navigation from "@/components/Navigation";
 import Dashboard from "@/components/Dashboard";
 import CameraAnalysis from "@/components/CameraAnalysis";
-import Gallery from "@/components/Gallery";
+import Social from "@/components/Social";
 import Settings from "@/components/Settings";
 
 const Index = () => {
@@ -14,8 +14,8 @@ const Index = () => {
         return <Dashboard />;
       case "camera":
         return <CameraAnalysis />;
-      case "gallery":
-        return <Gallery />;
+      case "social":
+        return <Social />;
       case "settings":
         return <Settings />;
       default:

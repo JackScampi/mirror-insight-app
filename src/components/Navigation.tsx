@@ -1,4 +1,4 @@
-import { Home, Camera, Image, Settings } from "lucide-react";
+import { Home, Camera, Users, Settings } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavigationProps {
@@ -10,7 +10,7 @@ const Navigation = ({ activeTab, onTabChange }: NavigationProps) => {
   const tabs = [
     { id: "dashboard", icon: Home, label: "Home" },
     { id: "camera", icon: Camera, label: "Analyze" },
-    { id: "gallery", icon: Image, label: "Gallery" },
+    { id: "social", icon: Users, label: "Social" },
     { id: "settings", icon: Settings, label: "Settings" },
   ];
 
