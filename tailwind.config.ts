@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Health status colors for wellness app
+				health: {
+					excellent: 'hsl(var(--health-excellent))',
+					good: 'hsl(var(--health-good))',
+					fair: 'hsl(var(--health-fair))',
+					poor: 'hsl(var(--health-poor))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
